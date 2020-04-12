@@ -2,7 +2,7 @@
 
 ## Question 1:
 
-pour bien comprendre notre programme, c'est d'expliquer la logique qu'on a utiliser :
+Pour bien comprendre notre programme, c'est d'expliquer la logique qu'on a utiliser :
 l'utilisateur entre son texte le programme doit stocker les caractéres et leur fréquence, c'est pour cela on a creer un objet ("Element.h") avec un constructeur (caractere  ,  frequence), pour qu'on stoque dans notre queue des variables de types Element. On est besoin d'une priority queue, c'est pour cela on a le header "Queue.h": dans ce header on est besoin: 
 1- enqueue: on va ajouter et trier les elements de queue a la fois avec une priorité pour   l element avec le plus grand nombre d'occurrences en utilisant un getter.
 2- dequeue: pour supprimer l element  avec le plus grand nombre d'occurrences du queue.
